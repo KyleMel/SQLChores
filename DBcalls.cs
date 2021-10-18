@@ -21,32 +21,34 @@ namespace SQLChores
             string sql = "DROP DATABASE IF EXISTS [ChoresDB]; CREATE DATABASE [ChoresDB]";
             RunQuery(sql);
         }
-        //public void CreateTB()
-        //{
-        //    Console.WriteLine("Creating Chores Table...");
-        //    StringBuilder sb = new StringBuilder();
-        //    sb.Append("USE ChoresDB; ");
-        //    sb.Append("CREATE TABLE Chores ( ");
-        //    sb.Append("ChoreID INT INDENTITY(1,1) NOT NULL PRIMARY KEY, ");
-        //    sb.Append("ChoreName NVARCHAR(50),");
-        //    sb.Append("ChoreAssignment NVCHAR(50)); ");
-        //    sql = sb.ToString();
-        //    RunQuery(sql);
-        //}
-        //public void AddCh()
-        //{
-        //    Console.WriteLine("Adding Chore...");
-        //    StringBuilder sb = new StringBuilder();
-        //    sb.Append("INSERT INTO Chores (ChoreName, ChoreAssignment) VALUES");
-        //    sb.Append("(N'Sweep', N'Sweep Room'),");
-        //    sb.Append("(N'Mop', N'Mop Room'),");
-        //    sql = sb.ToString();
-        //    RunQuery(sql);
-        //}
+        public void CreateTB()
+        {
+            Console.WriteLine("Creating Chores Table...");
+            StringBuilder sb = new StringBuilder();
+            sb.Append("USE ChoresDB; ");
+            sb.Append("CREATE TABLE Chores ( ");
+            sb.Append("ChoreID INT IDENTITY(1,1) NOT NULL PRIMARY KEY, ");
+            sb.Append("ChoreName NVARCHAR(50),");
+            sb.Append("ChoreAssignment NVARCHAR(50)); ");
+            sql = sb.ToString();
+            RunQuery(sql);
+        }
+        public void AddCh()
+        {
+            Console.WriteLine("Adding Chore...");
+            StringBuilder sb = new StringBuilder();
+            sb.Append("USE ChoresDB; ");
+            sb.Append("INSERT INTO Chores (ChoreName, ChoreAssignment) VALUES");
+            sb.Append("(ChoreName, ChoreAssignment);");
+            sb.Append("('Dust','Dust Room', ");
+            sb.Append("('Sweep','Sweep Room', ");
+            sb.Append("('Mop','Mop Room'; ");
+            sql = sb.ToString();
+        }
         //public void UpdateCh()
         //{
         //    Console.WriteLine("Updating Chore...");
-            
+
         //    RunQuery(sql);
         //}
         //public void DeleteCh()

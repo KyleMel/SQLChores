@@ -11,9 +11,9 @@ namespace SQLChores
             var connection = "Data Source=localhost;Initial Catalog=master;User ID=Kyle;Password=Temp123!";
             var calls = new DBcalls(connection);
             calls.CreateDB();
-            //calls.CreateTB();
-            //calls.AddCh();
-            //calls.UpdateCh();
+            calls.CreateTB();
+            calls.AddCh();
+            //calls.UpdateCh(
             //calls.DeleteCh();
             //calls.GetCh();
         }
