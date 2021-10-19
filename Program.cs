@@ -13,7 +13,7 @@ namespace SQLChores
             calls.CreateDB();
             calls.CreateTable();
             calls.AddChore();
-            //calls.UpdateChore();
+            calls.UpdateChore();
             //calls.DeleteChore();
             //calls.GetChore();
         }
