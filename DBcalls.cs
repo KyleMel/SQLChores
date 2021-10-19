@@ -21,7 +21,7 @@ namespace SQLChores
             string sql = "DROP DATABASE IF EXISTS [ChoresDB]; CREATE DATABASE [ChoresDB]";
             RunQuery(sql);
         }
-        public void CreateTB()
+        public void CreateTable()
         {
             Console.WriteLine("Creating Chores Table...");
             StringBuilder sb = new StringBuilder();
@@ -33,32 +33,49 @@ namespace SQLChores
             sql = sb.ToString();
             RunQuery(sql);
         }
-        public void AddCh()
+        
+        public void AddChore()
         {
             Console.WriteLine("Adding Chore...");
             StringBuilder sb = new StringBuilder();
             sb.Append("USE ChoresDB; ");
-            sb.Append("INSERT INTO Chores (ChoreName, ChoreAssignment) VALUES");
-            sb.Append("(ChoreName, ChoreAssignment);");
-            sb.Append("('Dust','Dust Room', ");
-            sb.Append("('Sweep','Sweep Room', ");
-            sb.Append("('Mop','Mop Room'; ");
+            sb.Append("INSERT INTO Chores (ChoreName, ChoreAssignment) VALUES ");
+            sb.Append("('Dust','Dust Room'), ");
+            sb.Append("('Sweep','Sweep Room'), ");
+            sb.Append("('Mop','Mop Room'); ");
             sql = sb.ToString();
+            RunQuery(sql);
         }
-        //public void UpdateCh()
+        //public void UpdateChore()
         //{
         //    Console.WriteLine("Updating Chore...");
-
+        //    StringBuilder sb = new StringBuilder();
+        //    sb.Append("USE ChoresDB; ");
+        //    sb.Append("UPDATE Chores SET ChoreAssignment = 'Sweep Kitchen' ");
+        //    sb.Append("WHERE ChoreName = 'Sweep' ");
+        //    sql = sb.ToString();
         //    RunQuery(sql);
         //}
-        //public void DeleteCh()
+        //public void DeleteChore()
         //{
         //    Console.WriteLine("Deleting Chore...");
         //    RunQuery(sql);
         //}
-        //public void GetCh()
+        //public void GetChore()
         //{
         //    Console.WriteLine("Listing Chores...");
+        //    RunQuery(sql);
+        //}
+        //public void AddCh(string choreName, string choreAssignment)
+        //{
+        //    //generalize AddCh() to add data to table w/ input parameters.
+        //    //INSERT INTO TABLE_NAME VALUES (value1,value2,value3,...valueN);
+        //    Console.WriteLine("Adding Chore...");
+        //    StringBuilder sb = new StringBuilder();
+        //    sb.Append("USE ChoresDB; ");
+        //    sb.Append("INSERT INTO Chores (ChoreName, ChoreAssignment) VALUES");
+        //    sb.Append($"('{choreName}', '{choreAssignment}');");
+        //    sql = sb.ToString();
         //    RunQuery(sql);
         //}
         public void RunQuery(string query)
