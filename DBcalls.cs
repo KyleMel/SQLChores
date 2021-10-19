@@ -35,7 +35,7 @@ namespace SQLChores
         
         public void AddChore()
         {
-            Console.Write("Press Enter to Continue:");
+            Console.WriteLine("Press Enter to Continue:");
             Console.ReadKey();
             Console.WriteLine("Adding Chore...");
             StringBuilder sb = new StringBuilder();
@@ -49,7 +49,7 @@ namespace SQLChores
         }
         public void UpdateChore()
         {
-            Console.Write("Press Enter to Continue:");
+            Console.WriteLine("Press Enter to Continue:");
             Console.ReadKey();
             Console.WriteLine("Updating Chore...");
             StringBuilder sb = new StringBuilder();
@@ -61,7 +61,7 @@ namespace SQLChores
         }
         public void DeleteChore()
         {
-            Console.Write("Press Enter to Continue:");
+            Console.WriteLine("Press Enter to Continue:");
             Console.ReadKey();
             Console.WriteLine("Deleting Chore...");
             sql = "USE ChoresDB DELETE FROM Chores WHERE ChoreName = 'Sweep';";
@@ -69,7 +69,7 @@ namespace SQLChores
         }
         public void GetChore()
         {
-            Console.Write("Press Enter to Continue:");
+            Console.WriteLine("Press Enter to Continue:");
             Console.ReadKey();
             Console.WriteLine("Listing Chores...");
             sql = "USE ChoresDB SELECT * FROM Chores;";
@@ -84,7 +84,7 @@ namespace SQLChores
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
                     command.ExecuteNonQuery();
-                    Console.WriteLine("Done");
+                    Console.WriteLine("Done\n");
                 }
             }
         }
