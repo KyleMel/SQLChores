@@ -70,14 +70,14 @@ namespace SQLChores
             sql = "USE ChoresDB DELETE FROM Chores WHERE ChoreName = 'Sweep';";
             RunQuery(sql);
         }
-        //public void GetChore()
-        //{
-        //    Console.Write("Press Enter to Continue:");
-        //    Console.ReadKey();
-        //    Console.WriteLine("Listing Chores...");
-        //    sql = "USE ChoresDB SELECT * FROM Chores;";
-        //    ListQuery(sql);
-        //}
+        public void GetChore()
+        {
+            Console.Write("Press Enter to Continue:");
+            Console.ReadKey();
+            Console.WriteLine("Listing Chores...");
+            sql = "USE ChoresDB SELECT * FROM Chores;";
+            ListQuery(sql);
+        }
         //public void AddCh(string choreName, string choreAssignment)
         //{
         //    //generalize AddCh() to add data to table w/ input parameters.
@@ -103,24 +103,24 @@ namespace SQLChores
                 }
             }
         }
-        //public void ListQuery(string query)
-        //{
-        //    using (SqlConnection connection = new SqlConnection(connectionString))
-        //    {
-        //        connection.Open();
+        public void ListQuery(string query)
+        {
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
 
-        //        using (SqlCommand command = new SqlCommand(query, connection))
-        //        {
-        //            command.ExecuteNonQuery();
-        //            using (SqlDataReader reader = command.ExecuteReader())
-        //            {
-        //                while (reader.Read())
-        //                {
-        //                    Console.WriteLine("|{0}|{1}|{2}", reader.GetInt32(0), reader.GetString(1), reader.GetString(2));
-        //                }
-        //            }
-        //        }
-        //    }
-        //}
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.ExecuteNonQuery();
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            Console.WriteLine("|{0}|{1}|{2}", reader.GetInt32(0), reader.GetString(1), reader.GetString(2));
+                        }
+                    }
+                }
+            }
+        }
     }
 }
