@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kyle Melton\\source\\repos\\SQLChores\\SQLChores.csproj": {}
+    "C:\\Develop\\SQLChores\\SQLChores.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kyle Melton\\source\\repos\\SQLChores\\SQLChores.csproj": {
+    "C:\\Develop\\SQLChores\\SQLChores.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kyle Melton\\source\\repos\\SQLChores\\SQLChores.csproj",
+        "projectUniqueName": "C:\\Develop\\SQLChores\\SQLChores.csproj",
         "projectName": "SQLChores",
-        "projectPath": "C:\\Users\\Kyle Melton\\source\\repos\\SQLChores\\SQLChores.csproj",
+        "projectPath": "C:\\Develop\\SQLChores\\SQLChores.csproj",
         "packagesPath": "C:\\Users\\Kyle Melton\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kyle Melton\\source\\repos\\SQLChores\\obj\\",
+        "outputPath": "C:\\Develop\\SQLChores\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kyle Melton\\AppData\\Roaming\\NuGet\\NuGet.Config",

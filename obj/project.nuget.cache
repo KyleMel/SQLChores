@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Jlp6i1Zfl9l/UBfLlSQGyvIneksm53ezgQuWCD/6F3Ye0YS7ubZCZtA+grXWTAEUU6lE1C6VZYNnsSQlO+UsIQ==",
+  "dgSpecHash": "WRC9Qhd9P81v2UIQs4r7X5JqSVzHAqB/qT6O/0TC4289HZRn3eC1VQdkf/TAonbVS9XFtJZyYkGhomSo5mQBng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kyle Melton\\source\\repos\\SQLChores\\SQLChores.csproj",
+  "projectFilePath": "C:\\Develop\\SQLChores\\SQLChores.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kyle Melton\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Kyle Melton\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

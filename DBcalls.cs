@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Data.SqlClient;
 
 namespace SQLChores
@@ -78,18 +75,6 @@ namespace SQLChores
             sql = "USE ChoresDB SELECT * FROM Chores;";
             ListQuery(sql);
         }
-        //public void AddCh(string choreName, string choreAssignment)
-        //{
-        //    //generalize AddCh() to add data to table w/ input parameters.
-        //    //INSERT INTO TABLE_NAME VALUES (value1,value2,value3,...valueN);
-        //    Console.WriteLine("Adding Chore...");
-        //    StringBuilder sb = new StringBuilder();
-        //    sb.Append("USE ChoresDB; ");
-        //    sb.Append("INSERT INTO Chores (ChoreName, ChoreAssignment) VALUES");
-        //    sb.Append($"('{choreName}', '{choreAssignment}');");
-        //    sql = sb.ToString();
-        //    RunQuery(sql);
-        //}
         public void RunQuery(string query)
         {
             using (SqlConnection connection = new SqlConnection(connectionString))

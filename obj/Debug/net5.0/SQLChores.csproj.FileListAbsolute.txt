@@ -21,3 +21,26 @@ C:\Users\Kyle Melton\source\repos\SQLChores\obj\Debug\net5.0\SQLChores.dll
 C:\Users\Kyle Melton\source\repos\SQLChores\obj\Debug\net5.0\ref\SQLChores.dll
 C:\Users\Kyle Melton\source\repos\SQLChores\obj\Debug\net5.0\SQLChores.pdb
 C:\Users\Kyle Melton\source\repos\SQLChores\obj\Debug\net5.0\SQLChores.genruntimeconfig.cache
+C:\Develop\SQLChores\bin\Debug\net5.0\SQLChores.exe
+C:\Develop\SQLChores\bin\Debug\net5.0\SQLChores.deps.json
+C:\Develop\SQLChores\bin\Debug\net5.0\SQLChores.runtimeconfig.json
+C:\Develop\SQLChores\bin\Debug\net5.0\SQLChores.runtimeconfig.dev.json
+C:\Develop\SQLChores\bin\Debug\net5.0\SQLChores.dll
+C:\Develop\SQLChores\bin\Debug\net5.0\ref\SQLChores.dll
+C:\Develop\SQLChores\bin\Debug\net5.0\SQLChores.pdb
+C:\Develop\SQLChores\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Develop\SQLChores\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Develop\SQLChores\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Develop\SQLChores\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Develop\SQLChores\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Develop\SQLChores\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Develop\SQLChores\obj\Debug\net5.0\SQLChores.csproj.AssemblyReference.cache
+C:\Develop\SQLChores\obj\Debug\net5.0\SQLChores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Develop\SQLChores\obj\Debug\net5.0\SQLChores.AssemblyInfoInputs.cache
+C:\Develop\SQLChores\obj\Debug\net5.0\SQLChores.AssemblyInfo.cs
+C:\Develop\SQLChores\obj\Debug\net5.0\SQLChores.csproj.CoreCompileInputs.cache
+C:\Develop\SQLChores\obj\Debug\net5.0\SQLChores.csproj.CopyComplete
+C:\Develop\SQLChores\obj\Debug\net5.0\SQLChores.dll
+C:\Develop\SQLChores\obj\Debug\net5.0\ref\SQLChores.dll
+C:\Develop\SQLChores\obj\Debug\net5.0\SQLChores.pdb
+C:\Develop\SQLChores\obj\Debug\net5.0\SQLChores.genruntimeconfig.cache
