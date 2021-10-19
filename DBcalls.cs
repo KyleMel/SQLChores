@@ -62,14 +62,14 @@ namespace SQLChores
             sql = sb.ToString();
             RunQuery(sql);
         }
-        //public void DeleteChore()
-        //{
-        //    Console.Write("Press Enter to Continue:");
-        //    Console.ReadKey();
-        //    Console.WriteLine("Deleting Chore...");
-        //    sql = "USE ChoresDB DELETE FROM Chores WHERE ChoreName = 'Sweep';";
-        //    RunQuery(sql);
-        //}
+        public void DeleteChore()
+        {
+            Console.Write("Press Enter to Continue:");
+            Console.ReadKey();
+            Console.WriteLine("Deleting Chore...");
+            sql = "USE ChoresDB DELETE FROM Chores WHERE ChoreName = 'Sweep';";
+            RunQuery(sql);
+        }
         //public void GetChore()
         //{
         //    Console.Write("Press Enter to Continue:");
