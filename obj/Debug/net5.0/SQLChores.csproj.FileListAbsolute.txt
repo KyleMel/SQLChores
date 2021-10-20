@@ -39,7 +39,6 @@ C:\Develop\SQLChores\obj\Debug\net5.0\SQLChores.GeneratedMSBuildEditorConfig.edi
 C:\Develop\SQLChores\obj\Debug\net5.0\SQLChores.AssemblyInfoInputs.cache
 C:\Develop\SQLChores\obj\Debug\net5.0\SQLChores.AssemblyInfo.cs
 C:\Develop\SQLChores\obj\Debug\net5.0\SQLChores.csproj.CoreCompileInputs.cache
-C:\Develop\SQLChores\obj\Debug\net5.0\SQLChores.csproj.CopyComplete
 C:\Develop\SQLChores\obj\Debug\net5.0\SQLChores.dll
 C:\Develop\SQLChores\obj\Debug\net5.0\ref\SQLChores.dll
 C:\Develop\SQLChores\obj\Debug\net5.0\SQLChores.pdb
